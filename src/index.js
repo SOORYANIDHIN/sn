@@ -1,13 +1,25 @@
-import React from 'react';
+import React, {} from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <BrowserRouter> 
+     <Table/>
+  <Routes>
+  <Route path ="/view/:id" element={<View/>}> </Route>
+  <Route path ="/edit/:id" element={< Edit/>}> </Route>
+  <Route path ="/delete/:id" element={ <Delete/>}> </Route>
+  
+  </Routes>
+  </BrowserRouter> */}
+  <App/>
+
   </React.StrictMode>
 );
 
